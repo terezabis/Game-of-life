@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color: #384e72;
+	align-content: center; 
+}
+
+#div-canvas {
+    display: flex;
+	justify-content: center; 
+	align-items: center;
+}
+
+canvas {
+    cursor:pointer;
+}
+
+input {
+    padding:5px 15px; 
+    margin:10px 5px;
+    background:#949fb2; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+	justify-content: center; 
+}

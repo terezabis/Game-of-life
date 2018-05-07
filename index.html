@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Game of life</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body onload="start()">
+    <h1>Game of life</h1>
+    <div id="div-canvas">
+        <canvas width="500" height="500" id="canvas"></canvas>
+    </div>
+    <div id="buttons-div">
+        <input type="button" onclick="newGrid()" value="Step">
+        <input type="button" onclick="clearGrid()" value="Clear">
+        <input type="button" onclick="autoGrid(1)" value="Start" id="btnStart">
+        <input type="button" onclick="autoGrid(0)" value="Stop" id="btnStop">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
